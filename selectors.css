@@ -1,0 +1,78 @@
+.container0 {    
+    display: flex;                  /* в сочетании рамка по центру: */
+    flex-direction: column;      
+    align-items: center;    
+}
+
+.navbar0 {
+    /*display: flex;                  /* в сочетании рамка по центру: */
+    /*margin-top: 498px;*/
+    border-width: 1px;               /* ширина рамки                                    */
+    border-style: solid;             /* сплошная рамка в сочетании с border-width: 1px; */
+    border-color: blue;         /* цвет рамки                                      */     
+    width: 498px;                /* #ширина полотна         */
+    height: 498px;                /* высота рамки */  
+    overflow: hidden; /* чтобы не было видно других экранов */
+}
+
+button {    
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border: none;  
+    transition: all .1s;
+}
+
+button:hover {
+    background-color: lightyellow;
+}
+
+.box {    
+    height: 80px;    
+    background-size: cover;
+    background-position: center;    
+}
+/*******************************************************/
+.box.up {
+    margin-top: -164px; /* -100vh; /* улетает на вверх */
+}
+
+
+
+
+
+.box1 {    
+    height: 80px;    
+    background-size: cover;
+    background-position: center;    
+}
+.box1.up {
+    margin-top: -536px; /* -100vh; /* улетает на вверх */
+}
+.box2 {    
+    height: 80px;    
+    background-size: cover;
+    background-position: center;    
+}
+.box2.up {
+    margin-top: -536px; /* -100vh; /* улетает на вверх */
+}
+.box3 {    
+    height: 80px;    
+    background-size: cover;
+    background-position: center;    
+}
+.box3.up {
+    margin-top: -536px; /* -100vh; /* улетает на вверх */
+}
+.box4 {    
+    height: 80px;    
+    background-size: cover;
+    background-position: center;    
+}
+.box4.up {
+    margin-top: -536px; /* -100vh; /* улетает на вверх */
+}
